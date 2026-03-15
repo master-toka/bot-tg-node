@@ -1,0 +1,21 @@
+{
+  "name": "montazh-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for construction orders",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "sqlite3": "^5.1.7",
+    "sequelize": "^6.35.2",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.2",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
